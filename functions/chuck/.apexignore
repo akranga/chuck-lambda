@@ -1,0 +1,12 @@
+*.java
+gradle/
+gradlew
+.gradle/
+.project
+.classpath
+.gitignore
+deploy.sh
+gradlew.bat
+build.gradle
+build/
+bin/

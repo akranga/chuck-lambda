@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+version = '1.0.0'
+mainClassName='Main'
+
+jar {
+	archiveName = 'apex.jar' 	// so happily deploy with 'apex deploy chuck'
+    manifest {
+        attributes 'Main-Class': mainClassName,
+        'Implementation-Version': version
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile (
+        'com.amazonaws:aws-lambda-java-core:1.1.0',
+        'com.amazonaws:aws-lambda-java-events:1.1.0'
+    )
+}

@@ -1,0 +1,7 @@
+
+{
+  "name": "serverless",
+  "description": "Serverless demo for Chuck Norris",
+  "defaultEnvironment": "dev",
+  "environment": {}
+}
