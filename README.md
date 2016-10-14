@@ -174,3 +174,73 @@ Run `make api-lab1` it will import lambda function
 
 ## LAB2: Lambda function with parameters
 
+Now we will deploy AWS lambda with parameters. Here we will also discuss how to inject configuration data suh as JDBC URL and other parameters
+
+For the beginning let's do everything manually
+
+1\. Deploy AWS Lambda called 'lab2'. Run following command:
+```
+$ bin/apex deploy lab2
+```
+
+2\. Go to AWS console [link](https://goo.gl/CNqYmj)
+
+3\. Select Services -> API Gateway
+
+4\. Find your API Gateway (it will have environment name in the name)
+
+5\. Select Resoures from the left -> Actions button -> Create Resource
+
+6\. Enter value 'lab2' and click `Create Resource`
+
+7\. Select new Resource and click `Action` button -> Create Method -> GET
+
+8\. Select Integratioj Type: Lambda Function -> Lambda Region `eu-central-1`
+
+9\. Lambda function name `serverless_my-environment_lab2` -> `Save` -> `OK`
+
+10\. Click `TEST`
+
+11\. Select `Method Request`
+
+12\. Select ` URL Query String Parameters` -> `Add query string`
+
+13\. Enter `hello` -> `ok` -> Back to method execution
+
+14\. Select `Integration Request` ->  `Body Mapping Templates`
+
+15\. Click `Add mapping template` -> `application/json` -> `ok`
+
+16\. Copy paste this into memo box
+
+```json
+{
+  "body" : $input.json('$'),
+  "headers": {
+    #foreach($header in $input.params().header.keySet())
+    "$header": "$util.escapeJavaScript($input.params().header.get($header))" #if($foreach.hasNext),#end
+
+    #end
+  },
+  "method": "$context.httpMethod",
+  "params": {
+    #foreach($param in $input.params().path.keySet())
+    "$param": "$util.escapeJavaScript($input.params().path.get($param))" #if($foreach.hasNext),#end
+
+    #end
+  },
+  "query": {
+    #foreach($queryParam in $input.params().querystring.keySet())
+    "$queryParam": "$util.escapeJavaScript($input.params().querystring.get($queryParam))" #if($foreach.hasNext),#end
+
+    #end
+  }  
+}
+```
+
+17\. Tests
+
+
+## Cleaning out
+
+Run following script: `make clean` it should delete all cloud resources
