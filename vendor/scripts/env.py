@@ -100,7 +100,7 @@ if args.get('template'):
 	text   = c.render_templates(templates, 
 								params=params,
 								merge=merge,
-								output=output)
+								output=outt)
 	if args.get('render'):
 		print text
 	if args.get('write'):
@@ -135,7 +135,7 @@ if args.get('add') and args.get('permissions'):
 	service = args.get('<service>') or 'apigateway'
 	lambda_client = session.client('lambda')
 	print lambda_client.add_permission(
-		FunctionName='serverless_smoggy-pointer_lab1',
+		FunctionName=function_name,
 		StatementId=uuid.uuid4().hex,
 		Action='lambda:InvokeFunction',
 		Principal="{}.amazonaws.com".format(service)
