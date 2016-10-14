@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+ENV=${ENV:-dev}
+AWS_PROFILE=${AWS_PROFILE:-default}
+
+apex=$DIR/apex_darwin
+
+$apex -l info -e ${ENV} -p $AWS_PROFILE "$@" 
