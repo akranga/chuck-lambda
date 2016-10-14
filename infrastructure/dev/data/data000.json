@@ -1,0 +1,304 @@
+{
+    "dev_chuck": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "1"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "All arrays Chuck Norris declares are of infinite size, because Chuck Norris knows no bounds."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "2"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't have disk latency because the hard drive knows to hurry the hell up."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "3"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "All browsers support the hex definitions #chuck and #norris for the colors black and blue."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "4"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can't test for equality because he has no equal."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "5"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't need garbage collection because he doesn't call .Dispose(), he calls .DropKick()."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "6"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris's first program was kill -9."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "7"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris burst the dot com bubble."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "8"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris writes code that optimizes itself."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "9"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can write infinite recursion functions... and have them return."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "10"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can solve the Towers of Hanoi in one move."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "11"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "The only pattern Chuck Norris knows is God Object."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "12"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris finished World of Warcraft."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "13"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Project managers never ask Chuck Norris for estimations... ever."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "14"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't use web standards as the web will conform to him."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "15"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "\"It works on my machine\" always holds true for Chuck Norris."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "16"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Whiteboards are white because Chuck Norris scared them that way."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "17"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris's beard can type 140 wpm."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "18"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can unit test an entire application with a single assert."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "19"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't bug hunt, as that signifies a probability of failure. He goes bug killing."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "20"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris's keyboard doesn't have a Ctrl key because nothing controls Chuck Norris."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "21"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't need a debugger, he just stares down the bug until the code confesses."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "22"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can access private methods."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "23"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can instantiate an abstract class."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "24"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't need to know about class factory pattern. He can instantiate interfaces."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "25"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "The class object inherits from Chuck Norris."
+                    }
+                }
+            }
+        }
+    ]
+}

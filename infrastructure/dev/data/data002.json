@@ -1,0 +1,172 @@
+{
+    "dev_chuck": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "51"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can spawn threads that complete before they are started."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "52"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris programs do not accept input."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "53"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't need an OS."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "54"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can compile syntax errors."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "55"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris compresses his files by doing a flying round house kick to the hard drive."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "56"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't use a computer because a computer does everything slower than Chuck Norris."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "57"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "You don't disable the Chuck Norris plug-in, it disables you."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "58"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't need a java compiler, he goes straight to .war"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "59"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can use GOTO as much as he wants to. Telling him otherwise is considered harmful."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "60"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "There is nothing regular about Chuck Norris' expressions."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "61"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Quantum cryptography does not work on Chuck Norris. When something is being observed by Chuck it stays in the same state until he's finished. "
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "62"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "There is no need to try catching Chuck Norris' exceptions for recovery; every single throw he does is fatal."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "63"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris' beard is immutable."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "64"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris' preferred IDE is hexedit."
+                    }
+                }
+            }
+        }
+    ]
+}

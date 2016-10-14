@@ -5,6 +5,7 @@ gradlew
 .project
 .classpath
 .gitignore
+.idea
 deploy.sh
 gradlew.bat
 build.gradle

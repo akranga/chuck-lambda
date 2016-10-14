@@ -1,7 +1,11 @@
-
 {
   "name": "serverless",
   "description": "Serverless demo for Chuck Norris",
+  "runtime": "java",
+  "memory": 512,
+  "timeout": 300,
   "defaultEnvironment": "dev",
+  "nameTemplate": "{{.Project.Name}}_{{.Project.Environment}}_{{.Function.Name}}",
+
   "environment": {}
 }

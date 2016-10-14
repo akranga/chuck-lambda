@@ -1,0 +1,10 @@
+{
+  "runtime": "java",
+  "handler": "Main::handleRequest",
+  "memory": 512,
+  "timeout": 32,
+  "hooks" : {
+    "build" : "./gradlew jar",
+    "clean" : "./gradlew clean"
+  }
+}

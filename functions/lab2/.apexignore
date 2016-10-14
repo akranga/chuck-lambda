@@ -1,0 +1,13 @@
+*.java
+gradle/
+gradlew
+.gradle/
+.project
+.classpath
+.gitignore
+.idea
+deploy.sh
+gradlew.bat
+build.gradle
+build/
+bin/

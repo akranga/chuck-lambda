@@ -1,0 +1,49 @@
+---
+swagger: "2.0"
+info:
+  version: "2016-10-14T00:22:52Z"
+  title: "{{api_gateway_name}}"
+host: "{{api_gateway_host}}"
+basePath: "/{{api_gateway_stage}}"
+schemes:
+- "https"
+paths:
+  /lab2:
+    get:
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "hello"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+      x-amazon-apigateway-integration:
+        responses:
+          default:
+            statusCode: "200"
+        requestTemplates:
+          application/json: "{\n  \"body\" : $input.json('$'),\n  \"headers\": {\n\
+            \    #foreach($header in $input.params().header.keySet())\n    \"$header\"\
+            : \"$util.escapeJavaScript($input.params().header.get($header))\" #if($foreach.hasNext),#end\n\
+            \n    #end\n  },\n  \"method\": \"$context.httpMethod\",\n  \"params\"\
+            : {\n    #foreach($param in $input.params().path.keySet())\n    \"$param\"\
+            : \"$util.escapeJavaScript($input.params().path.get($param))\" #if($foreach.hasNext),#end\n\
+            \n    #end\n  },\n  \"query\": {\n    #foreach($queryParam in $input.params().querystring.keySet())\n\
+            \    \"$queryParam\": \"$util.escapeJavaScript($input.params().querystring.get($queryParam))\"\
+            \ #if($foreach.hasNext),#end\n\n    #end\n  }  \n}"
+
+        uri: "arn:aws:apigateway:{{aws_region}}:lambda:path/2015-03-31/functions/{{apex_function_lab2}}/invocations"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        type: "aws"
+definitions:
+  Empty:
+    type: "object"
+    title: "Empty Schema"

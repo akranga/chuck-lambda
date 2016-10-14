@@ -1,0 +1,11 @@
+{
+  "body" : {},
+  "headers": {
+      },
+  "method": "GET",
+  "params": {
+      },
+  "query": {
+        "hello": "world" 
+      }  
+}

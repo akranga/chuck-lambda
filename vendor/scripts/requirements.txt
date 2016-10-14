@@ -1,0 +1,7 @@
+awacs==0.5.4
+boto3
+docopt
+pyyaml
+awscli
+pprintpp
+pystache

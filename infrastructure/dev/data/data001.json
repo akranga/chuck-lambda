@@ -1,0 +1,304 @@
+{
+    "dev_chuck": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "26"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "For Chuck Norris, NP-Hard = O(1)."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "27"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris knows the last digit of PI."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "28"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can divide by zero."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "29"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't get compiler errors, the language changes itself to accommodate Chuck Norris."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "30"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "The programs that Chuck Norris writes don't have version numbers because he only writes them once. If a user reports a bug or has a feature request they don't live to see the sun set."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "31"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't believe in floating point numbers because they can't be typed on his binary keyboard."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "32"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris solved the Travelling Salesman problem in O(1) time."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "33"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris never gets a syntax error. Instead, the language gets a DoesNotConformToChuck error."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "34"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "No statement can catch the ChuckNorrisException."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "35"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't program with a keyboard. He stares the computer down until it does what he wants."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "36"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't pair program."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "37"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can write multi-threaded applications with a single thread."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "38"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "There is no Esc key on Chuck Norris' keyboard, because no one escapes Chuck Norris."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "39"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't delete files, he blows them away."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "40"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can binary search unsorted data."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "41"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris breaks RSA 128-bit encrypted codes in milliseconds."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "42"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris went out of an infinite loop."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "43"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can read all encrypted data, because nothing can hide from Chuck Norris."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "44"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris hosting is 101% uptime guaranteed."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "45"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "When a bug sees Chuck Norris, it flees screaming in terror, and then immediately self-destructs to avoid being roundhouse-kicked."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "46"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris rewrote the Google search engine from scratch."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "47"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris doesn't need the cloud to scale his applications, he uses his laptop."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "48"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris can access the DB from the UI."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "49"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris' protocol design method has no status, requests or responses, only commands."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "JokeNumber": {
+                        "N": "50"
+                    },
+                    "ChuckNorrisFact": {
+                        "S": "Chuck Norris' programs occupy 150% of CPU, even when they are not executing."
+                    }
+                }
+            }
+        }
+    ]
+}

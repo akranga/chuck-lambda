@@ -1,5 +1,6 @@
 import java.util.Random;
 
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
@@ -79,7 +80,7 @@ public class Main implements RequestHandler<Object, String> {
 
 	@Override
 	public String handleRequest(Object input, Context context) {
-		context.getLogger().log("My input is: " + input);
+		context.getLogger().log("Start lambda function");
 		return gimmeFact();
 	}
 }

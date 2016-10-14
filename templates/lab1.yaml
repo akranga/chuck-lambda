@@ -1,0 +1,31 @@
+---
+swagger: "2.0"
+info:
+  version: "2016-10-14T00:22:52Z"
+  title: "{{api_gateway_name}}"
+host: "{{api_gateway_host}}"
+basePath: "/{{api_gateway_stage}}"
+schemes:
+- "https"
+paths:
+  /lab1:
+    get:
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+      x-amazon-apigateway-integration:
+        responses:
+          default:
+            statusCode: "200"
+        uri: "arn:aws:apigateway:{{aws_region}}:lambda:path/2015-03-31/functions/{{apex_function_lab1}}/invocations"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        type: "aws"
+definitions:
+  Empty:
+    type: "object"
+    title: "Empty Schema"

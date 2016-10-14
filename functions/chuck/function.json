@@ -1,7 +1,0 @@
-{
-  "runtime": "java",
-  "role": "arn:aws:iam::776022106184:role/apex_lambda_function",
-  "handler": "Main::handleRequest",
-  "memory": 512,
-  "timeout": 32
-}
